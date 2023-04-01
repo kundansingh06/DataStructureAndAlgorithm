@@ -29,7 +29,6 @@ public class BinarySearch_Iterative {
             else if(arr[middleIndex]>searchelement){
                 lastIndex= middleIndex-1;
             }
-
         }
         return -1;
     }
